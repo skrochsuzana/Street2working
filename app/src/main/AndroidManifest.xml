@@ -33,6 +33,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Onibus_Disponivel" />
         </activity>
+
     </application>
 
 </manifest>
