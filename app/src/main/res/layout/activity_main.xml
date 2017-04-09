@@ -58,21 +58,15 @@
         android:id="@+id/btnEntrar" />
 
     <Button
-        android:text="Cadastrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnCadastrar"
-        android:layout_below="@+id/btnEntrar"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:text="Entre com Facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
         android:id="@+id/btnEntrarFacebook"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -80,9 +74,20 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/txtUsuario"
+        android:textSize="16sp"
         android:layout_alignBaseline="@+id/lblUsuario"
         android:layout_alignBottom="@+id/lblUsuario"
         android:layout_alignLeft="@+id/btnEntrarFacebook"
         android:layout_alignStart="@+id/btnEntrarFacebook"
-        android:textSize="16sp" />
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <Button
+        android:text="Cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCadastrar"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_centerHorizontal="true"
+        android:onClick="telaCriarCadastro"/>
 </RelativeLayout>

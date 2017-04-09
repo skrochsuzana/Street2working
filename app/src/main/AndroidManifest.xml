@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Criar_Cadastro"
+            android:label="@string/app_name"
+            android:parentActivityName=".Criar_Cadastro"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Criar_Cadastro" />
+        </activity>
     </application>
 
 </manifest>
