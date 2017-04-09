@@ -18,4 +18,18 @@ public class Criar_Cadastro extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.criar_cadastro);
     }
+
+    //Direciona para a tela "Login"
+    public void telaLogin(View v)
+    {
+        Intent tela = new Intent(this, MainActivity.class );
+        startActivity(tela);
+    }
+
+    //Direciona para a página "Onibus Disponivel"
+    public void telaonibusDisponivel(View v)
+    {
+        Intent tela = new Intent(this, Onibus_Disponivel.class );
+        startActivity(tela);
+    }
 }

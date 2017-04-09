@@ -55,7 +55,9 @@
         android:layout_below="@+id/lblSenha"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:id="@+id/btnEntrar" />
+        android:id="@+id/btnEntrar"
+        android:onClick="telaonibusDisponivel"
+        />
 
     <Button
         android:text="Entre com Facebook"
@@ -89,5 +91,5 @@
         android:id="@+id/btnCadastrar"
         android:layout_below="@+id/btnEntrar"
         android:layout_centerHorizontal="true"
-        android:onClick="telaCriarCadastro"/>
+        android:onClick="telacriarCadastro"/>
 </RelativeLayout>

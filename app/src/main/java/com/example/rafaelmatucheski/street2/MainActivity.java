@@ -13,9 +13,17 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    public void telaCriarCadastro(View v)
+    //Direciona para a tela "Criar Cadastro"
+    public void telacriarCadastro(View v)
     {
         Intent tela = new Intent(this, Criar_Cadastro.class );
+        startActivity(tela);
+    }
+
+    //Direciona para a página "Onibus Disponivel"
+    public void telaonibusDisponivel(View v)
+    {
+        Intent tela = new Intent(this, Onibus_Disponivel.class );
         startActivity(tela);
     }
 

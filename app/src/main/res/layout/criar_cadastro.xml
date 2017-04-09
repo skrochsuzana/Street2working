@@ -39,7 +39,9 @@
             android:layout_marginRight="29dp"
             android:layout_marginEnd="29dp"
             android:layout_marginBottom="32dp"
-            android:id="@+id/btnVoltar" />
+            android:id="@+id/btnVoltar"
+            android:onClick="telaLogin"
+            />
 
         <EditText
             android:layout_width="wrap_content"
@@ -94,7 +96,9 @@
             android:layout_marginStart="33dp"
             android:layout_below="@+id/txtpassConfirmacaoSenha"
             android:layout_toRightOf="@+id/lblUsuario"
-            android:layout_toEndOf="@+id/lblUsuario" />
+            android:layout_toEndOf="@+id/lblUsuario"
+            android:onClick="telaonibusDisponivel"
+            />
 
         <TextView
             android:text="Criar Cadastro"
